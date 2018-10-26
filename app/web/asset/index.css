@@ -1,0 +1,209 @@
+.section_padding {
+  padding: 80px 0px
+}
+
+.section_padding div.aboutUs p {
+  text-indent: 2em;
+  font-size: 18px;
+  line-height: 2;
+  margin: 10px 0 50px 0;
+  color:#666;
+}
+
+#header_area {
+  background: url(./images/bg.jpg);
+  padding-top: 35px;
+  background-size: cover;
+  background-position: center center
+}
+
+.logo {
+  margin-top: 5px;
+  position: relative;
+}
+
+.logo img {
+  width: 160px;
+}
+
+.logo .aboutUs,.index {
+  position: absolute;
+  color: #fff;
+  right: -4%;
+  top: 25px;
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Helvetica Neue","Helvetica,Arial","sans-serif";
+}
+
+
+.header_area_text {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  padding-right: 500px;
+}
+
+.header_area_text h2 {
+  font-size: 50px;
+  color: #fff
+}
+
+.header_area_text p {
+  color: #fff;
+  margin: 30px 0px;
+}
+
+.header_area_text a {
+  background: #4ECB8C;
+  display: inline-block;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+#features_area h2 {
+  margin-bottom: 60px;
+}
+
+.single_feature {
+  border: 2px solid #F2F2F2;
+  padding: 10px;
+}
+
+.single_feature h3 {
+  margin-top: 35px;
+}
+
+.service, .production, .competitive, .contact {
+  margin: 30px 30px;
+  background-color: #f4f4f4;
+  border: 0;
+  font-family: "Helvetica Neue","Helvetica,Arial","sans-serif";
+}
+
+.service div, .production div, .competitive div { 
+  height: 180px;
+  overflow: auto;
+  padding:0 30px;
+}
+
+.service img, .production img, .competitive img { 
+  width:80px;
+  height:80px;
+  margin-top:40px;
+}
+
+.service h3, .production h3, .competitive h3, .contact h3 {
+  margin-top: 30px;
+  font-size:22px;
+}
+
+.service p, .production p, .competitive p, .contact p {
+  margin: 15px 0;
+  font-size: 16px;
+  color:#666;
+}
+
+.contact {
+  height: 180px;
+  background:transparent;
+}
+
+.single_feature i {
+  background: #f9b400;
+  font-size: 25px;
+  padding: 20px;
+  color: #fff;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  padding-top: 17px;
+  position: absolute;
+  top: -17%;
+  left: 44%;
+}
+
+#footer_area {
+  background: #5d5d5c;
+  padding: 20px 0px;
+  color: #fff;
+}
+
+#footer_area a {
+  color: #fff;
+}
+
+
+
+
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1280px) {}
+
+
+
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .header_area_text {
+    padding-right: 160px
+  }
+  .single_feature i {
+    left: 38%
+  }
+}
+
+
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+  .logo img {
+    width: 80px;
+  }
+  .logo .aboutUs,.index {
+    position:absolute;
+    font-size:12px;
+    color:#fff;
+    right:12%;
+    top:4px;
+  }
+  .section_padding {
+    padding: 20px 0;
+  }
+  #header_area {
+    padding-top: 5px;
+  }
+  .header_area_text h2 {
+    font-size: 30px;
+  }
+  .header_area_text {
+    padding-right: 0px
+  }
+  .header_area_text {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .header_area_text a {
+    padding: 8px 10px;
+    margin-top: 0px;
+  }
+  .single_feature {
+    margin-bottom: 60px
+  }
+  .text-right {
+    text-align: left
+  }
+  p {
+    font-size: 12px;
+  }
+  h2 {
+    font-size: 22px;
+  }
+}

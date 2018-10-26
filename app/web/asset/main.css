@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.question {
+  background-image: url(../asset/images/tubiao.png);
+  background-size: 16px 16px;
+  background-position-y: 5px;
+  background-repeat: no-repeat;
+  padding-left: 30px;
+  color: #333333;
+  font-size: 16px;
+  border-bottom: 1px solid #e5e5e5;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
+
+.answer {
+  padding-left: 20px;
+  padding-bottom: 10px;
+  color: #999;
+  font-size: 14px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.agent_header {
+  height: 600px;
+  margin: 0 auto;
+  background-image: url(../asset/images/agent_header_bg.jpg);
+}
+
+.product_header {
+  height: 600px;
+  margin: 0 auto;
+  background-image: url(../asset/images/product_header_bg.jpg);
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.weui-loadmore {
+  width: 85%;
+  margin: 0 auto;
+  line-height: 0.5em;
+  font-size: 16px;
+}
+
+.weui-loadmore_line {
+  margin-top: 0.4em;
+}
+
+.weui-loadmore_line .weui-loadmore__tips {
+  top: -0.5em;
+  color: #f9b400;
+}
+
+.weui-footer {
+  margin: 1em auto;
+}
+
+.weui-footer a {
+  color: #999;
+}
+
+.weui-btn_primary {
+  background-color: #f9b400;
+}
+
+.weui-vcode-btn {
+  color: #f9b400;
+}
+
+.guideIndex {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.guideIndex .weui-cell:before {
+  left: 0;
+}
+
+.guideIndex .weui-cell .weui-cell__bd p {
+  color: #333;
+}
+
+.rule {
+  background-color: #eee;
+  color: #666;
+}
+
+.rule .weui-cell__hd img {
+  width: 20px;
+  margin-right: 5px;
+  display: block;
+}
+
+.account, .setPwd, .gather, .improve, .invite, .profit {
+  margin-bottom: 150px;
+}
+
+.common p{
+  color: #333;
+  margin: 35px 0 10px 15px;
+}
+
+.common img {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.remark p {
+  color: #666;
+  margin: 5px 0 0 15px;
+}
+
+.remark p:first-child {
+  margin: 15px 0 5px 15px;
+}
+
+.setPwd .step2 img, .gather .step4 img, .invite .step3 img, .invite .step4 img, .profit .step3 img{
+  margin-bottom: 50px;
+}
+
+.qrcode {
+  margin: 30px auto 10px;
+  width: 33%;
+}
+
+.productCode {
+  margin-top: 30px;
+}
+
+.returnBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 0;
+  margin-right: -20px;
+}
+
+.returnBtn img {
+  width: 60%;
+}
